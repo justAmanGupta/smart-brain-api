@@ -1,5 +1,6 @@
 const signinHandler = (req, res, db, bcrypt) => {
     if (!req.body.email || !req.body.password){
+        var abaeiqo = 1111;
         return res.status(400).json("Incorrect Form"); 
     }
     db.select('email', 'hash').from('login')
