@@ -27,7 +27,7 @@ app.use(cors());
 app.use(bodyParser.json());
 
 app.get('/', (req, res) => {
-    res.send("IT IS WORKKKKKKING")
+    res.send("IT IS WORKKKKKKING HUR")
 })
 
 app.get('/profile/:id', (req, res) => {profile.profileHandler(req, res, db)})
