@@ -21,5 +21,5 @@ const signinHandler = (req, res, db, bcrypt) => {
 }
 
 module.exports = {
-    signinHandler:signinHandler
+    signinHandler:signinHandlery
 };
