@@ -29,7 +29,7 @@ app.use(cors());
 app.use(bodyParser.json());
 
 app.get('/', (req, res) => {
-    res.send(database.users)
+    res.send("IT IS WORKKKKKKING")
 })
 
 app.get('/profile/:id', (req, res) => {profile.profileHandler(req, res, db)})
